@@ -17,7 +17,7 @@ from Oxford Nanopore and then include them in the folders for the codes to work 
 ## Installation
 
 - Git clone and run 'tar -xzf NanoData_5mer.tar.gz` to extract the Data folder.
-- `python mainHMM.py` for obtain the decoded sequence fasta files of Test set after learning parameters of HMM viz. Transition and Observation matrix. 
+- `python mainHMM.py` to obtain the decoded sequence fasta files of Test set after learning parameters of HMM viz. Transition and Observation matrix. 
 - `python mainNaive.py` to learn the Observation matrix and fit a Gaussian likelihood function without incorporating time transitions.
 - `python mainNanoRNN.py` to obtain the performance on test data of RNN. 
 
